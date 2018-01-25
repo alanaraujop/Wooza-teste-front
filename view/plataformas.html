@@ -1,0 +1,6 @@
+<div class="container">
+    <h1>Escolha uma plataforma</h1>
+    <div class="row">
+        <box-img ng-repeat="plataforma in plataformas" nome="{{plataforma.nome}}" img="img/{{plataforma.sku}}.svg" descricao="{{plataforma.descricao}}" link="#!planos/?plataforma={{plataforma.sku}}"></box-img>
+    </div>
+</div>

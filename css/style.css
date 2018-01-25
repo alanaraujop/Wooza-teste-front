@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+.border-and-shadow {
+    transition-duration: 0.3s;
+    border: none;
+    border-radius: 3px;
+    -webkit-box-shadow: 2px 2px 17px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 17px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 17px -4px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    margin: 10px;
+}
+
+.big-button {
+    height: 70px;
+    width: 70%;
+}
+
+.box {
+    color: #ffffff;
+    text-align: center;
+}
+
+.box:hover {
+    transition-duration: 0.3s;
+    -webkit-box-shadow: 2px 2px 17px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 17px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 17px 1px rgba(0, 0, 0, 0.75);
+    background-color: #0f89cf
+}
+
+.blue {
+    background-color: #6e9eb9;
+}
+
+.light-grey {
+    background-color: #c0c0c0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.box-img {
+    width: 20%;
+}
+
+.box-info:hover {
+    transition-duration: 0.3s;
+    color: white;
+    background-color: #0f89cf;
+}
+
+.cadastro {
+    margin: 30px 30% 30px 30%;
+    padding: 30px;
+}
+
+form input {
+    width: 100%;
+}
